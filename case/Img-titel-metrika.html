@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="author" content="Хуснутдинов Рустем">
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="favicon-32x32.png" rel="icon" type="image/png">
+<link href="apple-touch-icon.png" rel="icon" type="image/png">
+<link href="android-chrome-192x192.png" rel="apple-touch-icon">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa:400&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Calibri" rel="stylesheet">
+<link href="css/Rustem-porfolio.css" rel="stylesheet">
+<link href="css/Img-titel-metrika.css" rel="stylesheet">
+
+<!-- Подключение библиотеки jQuery -->
+<script src="jquery.js"></script>
+<!-- Подключение jQuery плагина Masked Input -->
+<script src="jquery.maskedinput.min.js"></script>
+
+<script>
+//Код jQuery, установливающий маску для ввода телефона элементу input
+//1. После загрузки страницы,  когда все элементы будут доступны выполнить...
+$(function(){
+  //2. Получить элемент, к которому необходимо добавить маску
+  $(".phone").mask("+7(999) 999-99-99");
+});
+</script>
+</head>
+<body>
+<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:1006px;height:1382px;z-index:0;">
+<img src="images/metrika.yandex-product.jpg" id="Image1" alt=""></div>
+</body>
+</html>
